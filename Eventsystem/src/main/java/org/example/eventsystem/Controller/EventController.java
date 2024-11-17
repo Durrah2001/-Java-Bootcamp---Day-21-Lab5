@@ -21,7 +21,7 @@ public class EventController {
         return new ApiResponse("Event added successfully");
     }
 
-    @GetMapping("displayAllEvents")
+    @GetMapping("/displayAllEvents")
     public ArrayList<Event> getEvents() {
         return events;
 
